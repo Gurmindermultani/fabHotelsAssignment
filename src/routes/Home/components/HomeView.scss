@@ -1,0 +1,52 @@
+.homeContainer{
+	.mainHeading{
+		width : 70%;
+		margin : auto;
+		text-align: center
+	}
+	.toolsContainer{
+		width : 80%;
+		margin : auto;
+		text-align : center;
+		.searchHotel{
+			color : black;
+			padding-top : 10px;
+		}
+		#autocomplete{
+			padding-top : 5px;
+		}
+	}
+	.featuredContainer,.blogContainer{
+		h1{
+			width : 80%;
+			margin : auto;
+			padding : 50px;
+			text-align : center;
+		}
+	}
+	.map {
+		height: 500px;
+		width : 440px;
+    }
+    .resultContainer{
+    	margin-top: 24px;
+    	display : block;
+    	div{
+    		float: left;
+    		table{
+    			margin-left : 10px;
+    		}
+    		td{
+    			color: #000;
+			    text-align: left;
+			    padding: 2px;
+			    border-bottom: 1px dotted grey;
+			    cursor : pointer;
+    		}
+    	}
+    }
+    .hidden{
+    	display : none;
+    }
+}
+
